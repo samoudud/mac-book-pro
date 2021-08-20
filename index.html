@@ -37,10 +37,11 @@
                         <h3 class="fw-bold">Memory</h3>
                         <div class="row g-1 me-5">
                             <div class="col-4">
-                                <button class="bg-white w-100 p-2 border-1">8GB unified memory</button>
+                                <button id="memory-8gb" class="bg-white w-100 p-2 border-1">8GB unified memory</button>
                             </div>
                             <div class="col-4">
-                                <button class="bg-white w-100 p-2 border-1">8GB unified memory</button>
+                                <button id="memory-16gb" class="bg-white w-100 p-2 border-1">12GB unified
+                                    memory</button>
                             </div>
                         </div>
                     </div>
@@ -51,13 +52,16 @@
                             <div class="col-10">
                                 <div class="row g-1">
                                     <div class="col-4">
-                                        <button class="bg-white w-100 px-1 py-2 border-1">256GB SSD storage</button>
+                                        <button id="storage-256gb" class="bg-white w-100 px-1 py-2 border-1">256GB SSD
+                                            storage</button>
                                     </div>
                                     <div class="col-4">
-                                        <button class="bg-white w-100 px-1 py-2 border-1">512GB SSD storage</button>
+                                        <button id="storage-512gb" class="bg-white w-100 px-1 py-2 border-1">512GB SSD
+                                            storage</button>
                                     </div>
                                     <div class="col-4">
-                                        <button class="bg-white w-100 py-2 border-1">1TB SSD storage</button>
+                                        <button id="storage-1tb" class="bg-white w-100 py-2 border-1">1TB SSD
+                                            storage</button>
                                     </div>
                                 </div>
                             </div>
@@ -68,10 +72,12 @@
                         <h3 class="fw-bold">Choose your delivery option</h3>
                         <div class="row g-1 ">
                             <div class="col-6">
-                                <button class="bg-white p-2 w-100 border-1">Friday, Aug 25 Free Prime Delivery</button>
+                                <button id="delivery-regular" class="bg-white p-2 w-100 border-1">Friday, Aug 25 Free
+                                    Prime Delivery</button>
                             </div>
                             <div class="col-6">
-                                <button class="bg-white w-100 p-2 border-1">Friday, Aug 21 Delivery charge $20</button>
+                                <button id="delivery-argent" class="bg-white w-100 p-2 border-1">Friday, Aug 21 Delivery
+                                    charge $20</button>
                             </div>
                         </div>
                     </div>
@@ -81,26 +87,26 @@
                             <tbody>
                                 <tr>
                                     <th scope="row">Best Price</th>
-                                    <td>$1299</td>
+                                    <td>$<span id="best-price">1299</span></td>
                                 </tr>
                                 <tr>
                                     <th scope="row">Extra Memory Cost</th>
-                                    <td>$0</td>
+                                    <td>$<span id="memory-cost">0</span></td>
                                 </tr>
                                 <tr>
                                     <th scope="row">Extra Storage Cost</th>
-                                    <td>$0</td>
+                                    <td>$<span id="storage-cost">0</span></td>
                                 </tr>
                                 <tr>
                                     <th scope="row">Delivery charge</th>
-                                    <td>$0</td>
+                                    <td>$<span id="delivery-cost">0</span></td>
                                 </tr>
 
                             </tbody>
                             <tfoot>
                                 <tr>
                                     <th scope="row">Total Price</th>
-                                    <td>$1299</td>
+                                    <td>$<span id="total-price">1299</span></td>
                                 </tr>
                             </tfoot>
                         </table>
