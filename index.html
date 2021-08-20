@@ -16,12 +16,13 @@
 <body>
     <!-- Header part -->
     <header>
-
+        <!-- empty -->
     </header>
 
     <!-- main part -->
     <main>
         <section class="container mt-5">
+            <!-- Macbook Image -->
             <div class="row gx-5">
                 <div class="col-6 pe-5">
                     <img width="100%" height="400px" src="images/mac.png" alt="">
@@ -33,34 +34,41 @@
                             and 16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt / USB 4 ports
                             Magic Mouse Magic Keyboard - US English</p>
                     </header>
+
+                    <!-- Memory content -->
                     <div class="memory-container mt-5">
                         <h3 class="fw-bold">Memory</h3>
                         <div class="row g-1 me-5">
-                            <div class="col-4">
-                                <button id="memory-8gb" class="bg-white w-100 p-2 border-1">8GB unified memory</button>
+                            <div class="col-4 ">
+                                <button id="memory-8gb" class="bg-white button-hover w-100 p-2 border-1">8GB unified
+                                    memory</button>
                             </div>
                             <div class="col-4">
-                                <button id="memory-16gb" class="bg-white w-100 p-2 border-1">12GB unified
+                                <button id="memory-16gb" class="bg-white w-100 p-2 border-1 button-hover">12GB unified
                                     memory</button>
                             </div>
                         </div>
                     </div>
 
+                    <!-- Storage content  -->
                     <div class="storage-container mt-5">
                         <h3 class="fw-bold">Storage</h3>
                         <div class="row">
                             <div class="col-10">
                                 <div class="row g-1">
                                     <div class="col-4">
-                                        <button id="storage-256gb" class="bg-white w-100 px-1 py-2 border-1">256GB SSD
+                                        <button id="storage-256gb"
+                                            class="bg-white w-100 px-1 py-2 border-1 button-hover">256GB SSD
                                             storage</button>
                                     </div>
                                     <div class="col-4">
-                                        <button id="storage-512gb" class="bg-white w-100 px-1 py-2 border-1">512GB SSD
+                                        <button id="storage-512gb"
+                                            class="bg-white w-100 px-1 py-2 border-1 button-hover">512GB SSD
                                             storage</button>
                                     </div>
                                     <div class="col-4">
-                                        <button id="storage-1tb" class="bg-white w-100 py-2 border-1">1TB SSD
+                                        <button id="storage-1tb" class="bg-white w-100 py-2 border-1 button-hover">1TB
+                                            SSD
                                             storage</button>
                                     </div>
                                 </div>
@@ -68,20 +76,24 @@
                         </div>
                     </div>
 
+                    <!-- delivery content  -->
                     <div class="delivery-container mt-5">
                         <h3 class="fw-bold">Choose your delivery option</h3>
                         <div class="row g-1 ">
                             <div class="col-6">
-                                <button id="delivery-regular" class="bg-white p-2 w-100 border-1">Friday, Aug 25 Free
+                                <button id="delivery-regular" class="bg-white p-2 w-100 border-1 button-hover">Friday,
+                                    Aug 25 Free
                                     Prime Delivery</button>
                             </div>
                             <div class="col-6">
-                                <button id="delivery-argent" class="bg-white w-100 p-2 border-1">Friday, Aug 21 Delivery
+                                <button id="delivery-argent" class="bg-white w-100 p-2 border-1 button-hover">Friday,
+                                    Aug 21 Delivery
                                     charge $20</button>
                             </div>
                         </div>
                     </div>
 
+                    <!-- cost content -->
                     <div class="cost-container w-50 mt-5">
                         <table class="table">
                             <tbody>
@@ -110,17 +122,21 @@
                                 </tr>
                             </tfoot>
                         </table>
+
+                        <!-- promo code apply  -->
                         <div class="promo-container">
-                            <h5>Add Pomo code</h5>
-                            <input class="w-75 p-2" type="text">
-                            <button class="btn-danger w-25 float-end p-2 rounded-2">Apply</button>
+                            <h5>Add Promo code</h5>
+                            <input id="promo-input" class="w-75 p-2" type="text">
+                            <button id="apply-button" class="btn-danger w-25 float-end p-2 rounded-2">Apply</button>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!-- horizontal break -->
             <hr>
             <div class="total-container">
-                <h1 class="text-center fw-bold">Total: $1299</h1>
+                <h1 class="text-center fw-bold">Total: $<span id="total">1299</span></h1>
             </div>
 
         </section>
@@ -128,7 +144,7 @@
 
     <!-- footer part -->
     <footer>
-
+        <!-- foorter is empy -->
     </footer>
 
     <!-- Bootstrap Js  -->
