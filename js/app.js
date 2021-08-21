@@ -31,7 +31,7 @@ function updateTotalPrice() {
 
 }
 
-
+// function to add events in buttons
 function buttonEvent(idName, price) {
     // update extra price
     updateExtra(idName, price);
