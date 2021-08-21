@@ -8,12 +8,7 @@ body{
 
 
 /* button styles */
-.button-hover:hover{
+.buttons button:hover{
     background-color: black !important;
     color: white;
-}
-
-/* table data bolded */
-table td{
-    font-weight: 800;
 }
